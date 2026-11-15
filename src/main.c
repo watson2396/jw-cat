@@ -40,8 +40,7 @@ int main (int argc,const char** argv)
     {
         char* err_msg = strerror(errno);
         printf("%s\n", err_msg);
-    } 
-
+    }
 
     return 0;
 }
